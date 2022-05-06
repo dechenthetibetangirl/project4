@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    max-width: map-get($breakpoint,ultra-wide);
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}

@@ -1,0 +1,52 @@
+.restaurant-section__card{
+    width: 90%;
+    margin: 15px auto;
+    padding: 0px 0px 15px 0px;
+    background-color: #fff;
+    border-radius: 15px;
+    @include drop-shadow;
+    position: relative;
+    cursor: pointer;
+
+    img{
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+        @include desktop-only{
+            height: 150px;
+        }
+    }
+
+    h2{
+        margin: 10px 10px 4px 10px;
+    }
+
+    p{
+        margin: 0px 10px;
+    }
+
+    @include tablet-only{
+        width: 43%;
+    }
+
+    @include desktop-only{
+        width: 20%;
+    }
+}
+
+.new-tag{
+    background-color: $color-tertiary;
+    color: darken($color-tertiary,40%);
+    font-weight: bold;
+    width: 80px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 2px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    margin: 0px;
+}
